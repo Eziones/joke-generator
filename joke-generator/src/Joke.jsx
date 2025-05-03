@@ -5,7 +5,7 @@ export default function Joke(props) {
   const [reveal, setReveal] = useState(false)
 
   if (!joke) {
-    return <p></p>
+    return <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
   }
 
   if (joke.type === 'single') {
