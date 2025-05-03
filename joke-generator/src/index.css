@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  background-color: #222831;
+  margin: 0;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.joke-container {
+  color: white;
+  background-color: #393E46;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(148, 137, 121, 0.15);
+
+  max-width: 1000px;
+}
+
+.joke-container p {
+  position: relative;
+}
+
+.hidden {
+  filter: blur(4px);
+  cursor: pointer;
+  user-select: none;
+}
