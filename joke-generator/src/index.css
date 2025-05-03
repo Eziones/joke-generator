@@ -41,3 +41,19 @@ main {
   cursor: pointer;
   user-select: none;
 }
+
+button {
+  border: none;
+  background-color: #DFD0B8;
+  color: #222831;
+  cursor: pointer;
+
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 1.5rem;
+}
+
+button:active {
+  background-color: #393E46;
+  color: #948979;
+}
